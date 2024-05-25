@@ -15,10 +15,10 @@
         </div>
         <div class="login-container">
             <h2>Login</h2>
-            <form action="login.php" method="post">
-                <input type="text" name="username" placeholder="Usuário:" required>
-                <input type="password" name="password" placeholder="Senha:" required>
-                <button type="submit">Entrar</button>
+            <form>
+                <input type="text" id="login" placeholder="Usuário:" required>
+                <input type="password" id="senha" placeholder="Senha:" required>
+                <button type="submit" onclick="logar(); return false">Entrar</button>
             </form>
         </div>
     </main>
